@@ -1,0 +1,16 @@
+h1{
+    color: brown;
+}
+
+.color-1{
+    background-color: blueviolet;
+}
+
+#formulario{
+    background-color: blue;
+    border-style: solid;
+    border-color: chartreuse;
+    border: 40px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
