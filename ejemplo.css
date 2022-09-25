@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 2px;
+}
+
+.header {
+    height: 100px;
+    background-color: #FF4945;
+}
+.header2 {
+    height: 100px;
+    background-color: #FF4945;
+}
+
+.aside {
+    height: 100px;
+    background-color: #FFA931;
+}
+
+.section {
+    height: 100px;
+    background-color: #9B0579;
+}
+.section2{
+    height: 100px;
+    background-color: #9B0579;
+}
+.footer {
+    height: 100px;
+    background-color: #00778F;
+}
+.footer2 {
+    height: 100px;
+    background-color: #00778F;
+}
+.footer3 {
+    height: 100px;
+    background-color: #00778F;
+}
+
+@media screen and (min-width: 768px){
+
+    * {
+        box-sizing: border-box;
+        margin: 2px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            'header header header header header header header header2 header2 header2 header2 header2'
+            'aside aside aside aside section section section section section section section section'
+            'aside aside aside aside section2 section2 section2 section2 section2 section2 section2 section2'
+            'footer footer footer footer2 footer2 footer2 footer2 footer2 footer2 footer3 footer3 footer3';
+    }
+    
+    .header {
+        grid-area: header;
+        height: 100px;
+        background-color: #FF4945;
+    }
+    .header2 {
+        grid-area: header2;
+        height: 100px;
+        background-color: #FF4945;
+    }
+    
+    .aside {
+        grid-area: aside;
+        height: 400px;
+        background-color: #FFA931;
+    }
+    
+    .section {
+        grid-area: section;
+        height: 200px;
+        background-color: #9B0579;
+    }
+    .section2{
+        grid-area: section2;
+        height: 200px;
+        background-color: #9B0579;
+    }
+    .footer {
+        grid-area: footer;
+        height: 100px;
+        background-color: #00778F;
+    }
+    .footer2 {
+        grid-area: footer2;
+        height: 100px;
+        background-color: #00778F;
+    }
+    .footer3 {
+        grid-area: footer3;
+        height: 100px;
+        background-color: #00778F;
+    }
+}
+
